@@ -1,0 +1,22 @@
+.main__container{
+
+    display: flex;
+    justify-items: center;
+    flex-basis: 100%;
+
+    .post__container{
+
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+
+    .new__post{
+
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+}
+}
