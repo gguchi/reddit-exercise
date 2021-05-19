@@ -8,7 +8,7 @@ obj.data.children.forEach(element => {
    
     let post = document.createElement('div');
 
-post.innerHTML = " " + element.data.title + '<br>' + '<img src='+element.data.thumbnail+' style = "margin-bottom: 50px"></img>'
+post.innerHTML = element.data.title + '<br>' + '<img src='+element.data.thumbnail+' style = "margin-bottom: 50px"></img>'
 
 container.appendChild(post);
 
