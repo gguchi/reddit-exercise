@@ -2,13 +2,13 @@ var posts = {"kind": "Listing", "data": {"modhash": "", "dist": 27, "children": 
 
 var obj = JSON.parse(JSON.stringify(posts));
 
-let container = document.querySelector(".post__container");
+let container = document.querySelector(".post");
 
 obj.data.children.forEach(element => {
    
     let post = document.createElement('div');
 
-post.innerHTML = element.data.title + '<br>' + '<img src='+element.data.thumbnail+' style = "margin-bottom: 50px"></img>'
+post.innerHTML = element.data.title + '<br>' + '<img src='+element.data.thumbnail+'></img>'
 
 container.appendChild(post);
 
